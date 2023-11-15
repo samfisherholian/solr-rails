@@ -25,7 +25,7 @@ development:
   <<: *default
   database: bigdata_oop4
   username: bigdata_oop4_user
-  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a/bigdata_oop4
+  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a.oregon-postgres.render.com/bigdata_oop4
   password: 5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -61,7 +61,7 @@ test:
   <<: *default
   database: bigdata_oop4
   username: bigdata_oop4_user
-  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a/bigdata_oop4
+  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a.oregon-postgres.render.com/bigdata_oop4
   password: 5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE
 
 # As with config/credentials.yml, you never want to store sensitive information,
@@ -87,5 +87,5 @@ production:
   <<: *default
   database: bigdata_oop4
   username: bigdata_oop4_user
-  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a/bigdata_oop4
+  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a.oregon-postgres.render.com/bigdata_oop4
   password: 5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE
