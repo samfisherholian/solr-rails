@@ -23,11 +23,10 @@ default: &default
 
 development:
   <<: *default
-  database: bonsai
-  username: bonsai
-  url: postgres://bonsai:SS6eKOvsCIsRI6hsFR3WXPj56kMBfhHP@dpg-cl2fo08310os73b4lsqg-a/bonsai_x4ht
-  password: SS6eKOvsCIsRI6hsFR3WXPj56kMBfhHP
-
+  database: bigdata_oop4
+  username: bigdata_oop4_user
+  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a/bigdata_oop4
+  password: 5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
@@ -60,10 +59,10 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: bonsai
-  username: bonsai
-  url: postgres://bonsai:SS6eKOvsCIsRI6hsFR3WXPj56kMBfhHP@dpg-cl2fo08310os73b4lsqg-a/bonsai_x4ht
-  password: SS6eKOvsCIsRI6hsFR3WXPj56kMBfhHP
+  database: bigdata_oop4
+  username: bigdata_oop4_user
+  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a/bigdata_oop4
+  password: 5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -86,7 +85,7 @@ test:
 #
 production:
   <<: *default
-  database: bonsai
-  username: bonsai
-  url: postgres://bonsai:SS6eKOvsCIsRI6hsFR3WXPj56kMBfhHP@dpg-cl2fo08310os73b4lsqg-a/bonsai_x4ht
-  password: SS6eKOvsCIsRI6hsFR3WXPj56kMBfhHP
+  database: bigdata_oop4
+  username: bigdata_oop4_user
+  url: postgres://bigdata_oop4_user:5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE@dpg-clajmtmnt67s738nihr0-a/bigdata_oop4
+  password: 5J58UayCL4dN3Pn3SqPmKxnlLw4AL8PE
